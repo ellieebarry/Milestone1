@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	 <link rel="stylesheet" href="styleCN.css" />
+	<script src=https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp></script>
+</head>
+
+<body> 
+    <header role = "banner"> 
+	
+		<svg width="100%" height="2%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+			<defs>
+			  <linearGradient id="Gradient1">
+				<stop class="stop1" offset="0%" />
+				<stop class="stop2" offset="50%" />
+				<stop class="stop1" offset="100%" />
+			  </linearGradient>
+			</defs>
+			<g>
+				<rect id="rect1" x="10" y="10" width="100%" height="100%" />
+		</svg>
+		<h1>Party Planning Task Planner</h1> 
+		<p>Created by Eleanor Barry and Victor Pinto.</p> 
+	
+	</header> 
+
+	<nav>
+		<ul class="navbar">
+            <li> <a href="index.html">Home</a> </li>
+			<li> <a href="list.html">My To Do List</a></li>
+			<li> <a href="detail.html">See list of your tasks</a> </li>
+            <li> <a href="createNew.html">Create New Task</a> </li>
+            
+			<!-- <li> <a href="detail.html">View Task Detail</a>  </li> -->
+		</ul>
+	</nav> 
+
+    <div class="bg-image">
+        <form  class="contactForm" action="/index.html" method="">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" value="first name">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" value="last name">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" value="email@my.fit.edu">
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" value="password">
+            <br>
+            <ul class="navbar">
+                <li> <a href="list.html">Sign In</a></li>
+                <li> <a href="list.html">New Account? Sign Up</a></li>
+            </ul>
+            
+        </form>
+    </div>
+    
+    <h1> 
+        Welcome to our party planner form!
+        Fill out our form here to setup your next party with professionals
+    </h1>
+
+    <ul>
+        <li>1) please submit your party at least 2 weeks before the planned date.</li>
+        <li>2) please insert information as how it is displayed on official doccuments</li>
+        <li>3) visit the tasks page to make changes to your party request</li>
+    </ul><br>
+
+    <div class="party_planner">
+        <form class="party_form" action="index.html" method="">
+            <lable for="fpartyname">First name of individual for the party</lable><br>
+            <input type="text" id="fpartyname" name="fname" value="first name"><br>
+            <lable for="lpartyname">Last name of individual for the party</lable><br><br>
+            <input type="text" id="lpartyname" name="lname" value="last name"><br>
+            <lable for="partytype">Type of party</lable><br><br>
+            <select id="partys" name="partys"><br>
+                <option value="Birthday">Birthday</option> 
+                <option value="Bachlors">Bachlors</option> 
+                <option value="Ball">Ball</option>
+                <option value="Dinner">Dinner</option>  
+                <option value="Pool">Pool</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Baby Shower">Baby Shower</option>  
+            </select>
+            <lable for="phone#">Phone Number</lable><br><br>
+            <input type="text" id="number" name="number" value="number"><br>
+            <lable for="location">Location</lable><br><br>
+            <input type="text" id="plocation" name="plocation" value="party location"><br>
+            <lable for="adult">Adult Themed</lable><br><br>
+            <input type="checkbox" id="adultp" name="adultp" value="adult party"><br>
+            <label for="msg"> Enter any request you would like to make</label><br><br>
+		    <textarea id="msg" name="message" maxlength=500 ></textarea><br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+	<aside>
+		<p> This is the aside part of the web page. </p>
+	</aside > 
+	<footer class="text-center"> &copy;2023 Eleanor Barry and Victor Pinto</footer>
+	
+
+</body>

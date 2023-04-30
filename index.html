@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+	<link rel="stylesheet" href="style.css" />
+	<script src=https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp></script>
+	
+	<title>Party Planning Task Planner </title>
+</head>
+
+<body>
+	<header role = "banner"> 
+	
+		<svg width="100%" height="2%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+			<defs>
+			  <linearGradient id="Gradient1">
+				<stop class="stop1" offset="0%" />
+				<stop class="stop2" offset="50%" />
+				<stop class="stop1" offset="100%" />
+			  </linearGradient>
+			</defs>
+			<g>
+				<rect id="rect1" x="10" y="10" width="100%" height="100%" />
+		</svg>
+		<h1>Party Planning Task Planner</h1> 
+		<p>Created by Eleanor Barry and Victor Pinto.</p> 
+	
+	</header> 
+
+	<nav>
+		<ul class="navbar">
+			<li> <a href="index.html">Home</a> </li>
+			<li> <a href="list.html">My To Do List</a></li>
+			<li> <a href="detail.html">See list of your tasks</a> </li>
+			<li> <a href="createNew.html">Create New Task</a> </li>
+			<!-- <li> <a href="detail.html">View Task Detail</a>  </li> -->
+		</ul>
+	</nav> 
+
+	<article>
+		<div tyle="text-align: center;">
+			<h1> Use this website to plan any party! 
+				This website is designed to make your party planning dreams come true easily! 
+				Create an account to start creating your to do list.
+				Add new tasks by clicking on the create new task button. 
+				Review your list of tasks by clicking on the my to do list button. 
+				View all details of a specific task by clicking on the veiw details button next to that task from your to do list.
+			</h1>
+			<!-- 1. image is in the same folder - relative path -->
+			<!-- <img id="light" src="light.jpeg" alt="Christmas Light" style="width:500px;height:600px;text-align: center;">
+			-->
+			<!-- <h2 style="text-align: center;">Contact Us</h2> -->
+			
+			<div class="bg-image">
+				<form  class="contactForm" action="/index.html" method="">
+					<label for="fname">First Name:</label>
+					<input type="text" id="fname" name="fname" value="first name">
+					<label for="lname">Last Name:</label>
+					<input type="text" id="lname" name="lname" value="last name">
+					<label for="email">Email:</label>
+					<input type="text" id="email" name="email" value="email@my.fit.edu">
+					<label for="password">Password:</label>
+					<input type="text" id="password" name="password" value="password">
+					<br>
+					<ul class="navbar">
+						<li> <a href="list.html">Sign In</a></li>
+						<li> <a href="list.html">New Account? Sign Up</a></li>
+					</ul>
+					
+				</form>
+			</div>
+
+	</article> 
+
+	<aside>
+		<p> This is the aside part of the web page. </p>
+	</aside > 
+	<footer class="text-center"> &copy;2023 Eleanor Barry and Victor Pinto</footer>
+	
+
+
+
+</body>
+</html>
